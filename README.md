@@ -53,7 +53,7 @@ odin - a language grammar for highlightjs
 
 ```html
 <script type="text/javascript"
-  src="https://unpkg.com/highlightjs-odin@1.0.4/dist/odin.min.js"></script>
+  src="https://unpkg.com/highlightjs-odin@1.0.0/dist/odin.min.js"></script>
 ```
 
 - More info: <https://unpkg.com>
