@@ -1,0 +1,27 @@
+{
+    "name": "highlightjs-odin",
+    "version": "1.0.0",
+    "description": "Highlight.js syntax definition for Odin programming Language",
+    "main": "src/languages/odin.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/NinjasCL/highlightjs-odin.git"
+    },
+    "keywords": [
+      "odin",
+      "c",
+      "highlight.js",
+      "highlightjs",
+      "syntax"
+    ],
+    "author": "Odin Developers <https://odin-lang.org>",
+    "license": "BSD-3-Clause",
+    "bugs": {
+      "url": "https://github.com/odin-lang/Odin/issues"
+    },
+    "homepage": "https://github.com/odin-lang/Odin"
+  }
+  
