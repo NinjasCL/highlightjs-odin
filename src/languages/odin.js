@@ -15,9 +15,9 @@ export default function(hljs) {
             built_in: "abs align_of cap clamp complex conj expand_to_tuple imag jmag kmag len max min offset_of quaternion real size_of soa_unzip soa_zip swizzle type_info_of type_of typeid_of"
         },
         illegal: "</",
-        contains: [e.C_LINE_COMMENT_MODE, e.C_BLOCK_COMMENT_MODE, {
+        contains: [hljs.C_LINE_COMMENT_MODE, hljs.C_BLOCK_COMMENT_MODE, {
             className: "string",
-            variants: [e.QUOTE_STRING_MODE, {
+            variants: [hljs.QUOTE_STRING_MODE, {
                 begin: "'",
                 end: "[^\\\\]'"
             }, {
@@ -27,9 +27,9 @@ export default function(hljs) {
         }, {
             className: "number",
             variants: [{
-                begin: e.C_NUMBER_RE + "[ijk]",
+                begin: hljs.C_NUMBER_RE + "[ijk]",
                 relevance: 1
-            }, e.C_NUMBER_MODE]
+            }, hljs.C_NUMBER_MODE]
         }]
     }
 };

@@ -1,6 +1,6 @@
 {
     "name": "highlightjs-odin",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Highlight.js syntax definition for Odin programming Language",
     "main": "src/languages/odin.js",
     "scripts": {
